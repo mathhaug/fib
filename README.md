@@ -1,2 +1,2 @@
-"# Fibonacci utregning" 
-"F(0) = 0" 
+# Fibonacci utregning
+F(0) = 0
