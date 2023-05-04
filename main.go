@@ -3,17 +3,11 @@ package main
 import (
 	"fmt"
 
-	a "github.com/mathhaug/fib/fib"
+	"github.com/mathhaug/fib/fibo"
 )
 
-/* func main() {
-    fmt.Println("Fantastiske Fibonacci!")
-}*/
-
-/*func main() {
-	fmt.Println(a.Fib(10))
-}*/
-
 func main() {
-	fmt.Println(a.Fib(10))
+	n := 10
+	result := fibo.Fib(n)
+	fmt.Printf("Fib(%d) = %d\n", n, result)
 }

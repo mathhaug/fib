@@ -1,4 +1,4 @@
-package fib
+package fibo
 
 func Fib(n int) int {
 	if n == 0 {
