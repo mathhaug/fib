@@ -1,3 +1,3 @@
-module github.com/mathhaug/fib.git
+module github.com/mathhaug/fib
 
 go 1.20
